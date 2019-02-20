@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author       = "Xy Group Ltd."
 
   s.platform = :ios, "10.0"
-  s.source       = { :git => "https://github.com/atereshkov/mykit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xygroup/xy-ios-sdk-releases.git", :tag => "#{s.version}" }
 
   s.frameworks = 'UIKit', 'CoreBluetooth'
 
