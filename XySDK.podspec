@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/xygroup/xy-ios-sdk-release"
 
   s.license      = "All Rights Reserved"
-  s.author       = "Xy Group Ltd."
+  s.author       = "Xy Group Ltd"
 
   s.platform = :ios, "10.0"
   s.source       = { :git => "https://github.com/xygroup/xy-ios-sdk-release.git", :tag => "#{s.version}" }
