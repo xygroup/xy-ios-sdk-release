@@ -8,16 +8,16 @@ Pod::Spec.new do |s|
   XySDK for iOS.
                    DESC
 
-  s.homepage     = "https://github.com/xygroup/xy-ios-sdk-releases"
+  s.homepage     = "https://github.com/xygroup/xy-ios-sdk-release"
 
   s.license      = "All Rights Reserved"
   s.author       = "Xy Group Ltd."
 
   s.platform = :ios, "10.0"
-  s.source       = { :git => "https://github.com/xygroup/xy-ios-sdk-releases.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xygroup/xy-ios-sdk-release.git", :tag => "#{s.version}" }
 
   s.frameworks = 'UIKit', 'CoreBluetooth'
 
-  s.ios.vendored_frameworks = "Framework/XySDK.framework"
+  s.ios.vendored_frameworks = "Frameworks/XySDK.framework"
 
 end
